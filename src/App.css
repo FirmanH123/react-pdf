@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,100 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.invoice{
+  padding: 20px;
+  margin: 10px;
+}
+.h-inv {
+  width: 100%;
+  display: flex;
+}
+.inv-name {
+  text-align: right;
+  margin-right: 30%;
+  font-weight: bolder;
+  flex: 1;
+  font-size: 20px;
+}
+.inv-original {
+  width: 20%;
+  font-size: 20px;
+}
+.box {
+  border: 3px solid #000;
+  padding: 10px 20px;
+}
+table {
+  width: 100%;
+}
+table tr td {
+  padding: 5px;
+  vertical-align: top;
+}
+table tr th {
+  padding: 5px 10px;
+  text-align: center;
+  background-color: grey;
+}
+
+table {
+  border-collapse: collapse;
+}
+.data table {
+  margin: -10px 0 100px -20px;
+  width: calc(100% + 40px);
+}
+.data table tr th {
+  padding: 10px;
+  border: 1px solid;
+  padding: 10px;
+}
+.data table tr th:first-child {
+  border-left: none;
+}
+.data table tr th:last-child {
+  border-right: none;
+}
+.data table tr td:first-child {
+  text-align: center;
+}
+.data table tr td{
+  padding: 10px;
+}
+
+.right{
+  text-align: right;
+}
+
+.footerData{
+  width: 100%;
+  margin: 80px 0 0 0;
+}
+
+.footerData table{
+  width: 40%;
+  float: right;
+}
+
+.footerData table tr td{
+  padding: 10px;
+}
+.footerData table tr td:last-child {
+  text-align: right;
+}
+
+.borderTop {
+  border-top: 3px solid #000;
+}
+.boldText {
+  font-weight: bold;
+}
+.clearfix {
+  clear: both;
 }
