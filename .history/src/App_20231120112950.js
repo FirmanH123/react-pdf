@@ -10,7 +10,6 @@ function App() {
   const options = {
     filename: "advanced-example.pdf",
     // default is `save`
-    
     method: 'save',
     // default is Resolution.MEDIUM = 3, which should be enough, higher values
     // increases the image quality but also the size of the PDF, so be careful
